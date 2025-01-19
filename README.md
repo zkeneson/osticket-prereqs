@@ -18,6 +18,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Install OS Ticket and Install / Enable IIS in Windows with CGI
+- Configure PHP settings
+- Enable Extensions for OSTicket
+- Complete Setup of OSTicket
 
 <h2>Installation Steps</h2>
 
@@ -32,39 +35,40 @@ Install OS Ticket on Windows VM
 <br />
 
 <p>
+<img width="1727" alt="image" src="https://github.com/user-attachments/assets/1974a26a-da40-4bb9-95fc-26f081cca917" />
 
 
 </p>
 <p>
-Install and enable IIS with CGI
-</p>
-<br />
-
-<p>
-<img width="808" alt="image" src="https://github.com/user-attachments/assets/0da707ec-738c-4488-a035-ce2e92c5a6aa" />
-
-</p>
-<p>
-From the Windows VM (Client-1), open PowerShell and ping the static IP address. Then, run ipconfig /all and observe the DNS server address is the static IP of the DC.
+Install and enable IIS with CGI.
 </p>
 <br />
 
 <p>
-<img width="1550" alt="image" src="https://github.com/user-attachments/assets/225dc840-a1bb-4912-b22f-c166d6f354aa" />
-
+<img width="1526" alt="image" src="https://github.com/user-attachments/assets/6ad94cfb-c909-4742-b77b-4c3710cbd85b" />
 
 </p>
 <p>
-Create Active Directory Employees using PowerShell script and observe the new list of generated Employees. 
+Set up all features and extensions using the PHP Manager.
 </p>
 <br />
 
 <p>
-<img width="1578" alt="image" src="https://github.com/user-attachments/assets/a39ed57a-a399-4abd-95e8-9ca4d6779ed9" />
+<img width="691" alt="image" src="https://github.com/user-attachments/assets/f88783fa-a4cc-4f2d-9398-3988973a1bff" />
+
 
 </p>
 <p>
-In the Domain Controller VM, create an Account Lockout Policy within the Group Policy Management Editor. 
+Enable all necessary extensions for the OSTicket installer.  
+</p>
+<br />
+
+<p>
+<img width="674" alt="image" src="https://github.com/user-attachments/assets/41939e21-1391-4c3f-88f9-c27a07a91d0d" />
+
+</p>
+<p>
+Observe the links when finishing the OSTicket install. Use these links to log into different accounts such as an Employee, Admin, etc.
 </p>
 <br />
 
