@@ -22,7 +22,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img width="1919" alt="image" src="https://github.com/user-attachments/assets/f4a4f3ff-4ea8-4e80-bf1d-ef24d16d57da" />
+<img width="881" alt="image" src="https://github.com/user-attachments/assets/507b1e54-ac29-433e-88b9-facd6f1cce3b" />
+
 
 </p>
 <p>
@@ -31,7 +32,7 @@ Install OS Ticket on Windows VM
 <br />
 
 <p>
-<img width="1915" alt="image" src="https://github.com/user-attachments/assets/c94d7884-05ae-4d50-864c-9b9345b2436e" />
+
 
 </p>
 <p>
