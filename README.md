@@ -17,11 +17,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Set Up Windows 10 VM (Client) and Windows Server VM (Domain Controller)
-- Configure IP settings for Domain Controller
-- Make DC IP Address Static
-- Create userbase of employees in Active Directory
-- Set Group Policy parameters
+- Install OS Ticket and Install / Enable IIS in Windows with CGI
 
 <h2>Installation Steps</h2>
 
@@ -30,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-In Azure, configure the IP settings for the Domain Controller's Network Interface Card.
+Install OS Ticket on Windows VM
 </p>
 <br />
 
@@ -39,7 +35,7 @@ In Azure, configure the IP settings for the Domain Controller's Network Interfac
 
 </p>
 <p>
-Set the DC's DNs server to custom and use the static Private IP address. 
+Install and enable IIS with CGI
 </p>
 <br />
 
